@@ -4,6 +4,8 @@ plot(data)
 
 head(data)
 
+#then I change something up here too
+
 
 library(ggplot2)
 
@@ -23,3 +25,6 @@ scatter + geom_point(aes(color=Species, shape=Species)) +
 #so now what happens if I do this?
 
 plot(mtcars)
+
+a <- ggplot(data, aes(Sepal.Length))
+a + geom_dotplot()
