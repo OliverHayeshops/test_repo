@@ -1,0 +1,3 @@
+data <- iris
+
+plot(iris)
