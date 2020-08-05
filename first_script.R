@@ -22,9 +22,6 @@ scatter + geom_point(aes(color=Species, shape=Species)) +
   xlab("Sepal Length") +  ylab("Sepal Width") +
   ggtitle("Sepal Length-Width")
 
-#so now what happens if I do this?
+#complete change
 
-plot(mtcars)
-
-a <- ggplot(data, aes(Sepal.Length))
-a + geom_dotplot()
+list(mtcars)
